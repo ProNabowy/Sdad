@@ -1,0 +1,696 @@
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+input:focus{
+  outline: none;
+}
+ul{
+  list-style: none;
+}
+.parent-links{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.nav-pills{
+  width: fit-content;
+  display: flex;
+  justify-content: start;
+  background-color: #e7e7e7 !important;
+  align-items: center;
+  width: calc(100% - 300px);
+  height: fit-content;
+  margin-right: 100px;
+}
+.nav-pills .nav-link{
+  color: rgb(85, 85, 85) !important;
+}
+.nav-pills .nav-link:hover{
+  color: black !important;
+}
+.logo{
+  width: 200px;
+  height: 75px;
+  background-image: url("logo1.png");
+  background-size: 100% 100%;
+}
+.section-two {
+  width: 100%;
+  height: 130px;
+  background-color:#e7e7e7 ;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  box-sizing: border-box;
+  padding: 20px 50px;
+}
+.section-two p,.section-two p a{
+  color: rgba(51, 51, 51, 0.621) !important;
+}
+.section-two h1{
+  font-size: 30px!important;
+  color: #ee7522;
+  margin-bottom: 10px;
+}
+.section-three{
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px 20px;
+
+}
+.section-three h3{
+  font-size: 20px;
+  color:#ee7522 ;
+}
+.section-three p{
+  color: rgb(85, 85, 85);
+  font-size: 17px;
+}
+.section-three span{
+  text-align: end;
+  font-weight: 700;
+  color: rgb(85, 85, 85);
+}
+.section-three a {
+  color: white;
+  background-color: #ee7522;
+  width: 100%;
+  text-align: center;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.section-four{
+  width: 100%;
+  margin: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.section-four p{
+  font-size: 14px;
+  font-weight: 700;
+  /* background-color: #ee7522; */
+  background-image: url("footer_btn.png");
+  color: white;
+  padding: 2px 10px;
+  background-size: 100%;
+}
+.links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links a,.links-left a{
+  text-decoration: none;
+  color: #333;
+  width: 30px !important;
+  height: 30px !important;
+  background-image: url("twiitter.png");
+  margin: 0px 5px;
+  background-size: 100% 100%;
+}
+.arabic_icon{
+  background-image: url("arabic_icon.png") !important;
+
+}
+.english_icon{
+  background-image: url("english_icon.png") !important;
+}
+.youtube{
+  background-image: url("youtube.png") !important;
+}
+.section-five{
+  display: flex;
+  justify-content: space-between;
+  color: #575757;
+}
+.section-five .footer{
+  display: flex;
+  justify-content: space-between;
+}
+.section-five .footer a{
+  color: #575757;
+  font-size: 14px;
+  margin: 0px 10px;
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.form-group lable{
+  text-align: end;
+}
+.btn-large{
+  color: white;
+  background-color: #ee7522;
+  width: 100%;
+  text-align: center;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  outline: none;
+}
+.btn-large:hover{
+  background-color: #ee7522 !important;
+}
+.bank-links{
+  display: flex;
+  flex-wrap: wrap;
+  height: 600px;
+  width: 100%;
+}
+.bank-links a{
+  width:150px;
+  height: 150px;
+  margin: 10px 36px;
+  background-size: 100% 100%;
+
+}
+.bank-links a:hover{
+  transform: scale(1.1);
+  transition: .5s;
+}
+.bank1{
+  background-image: url("bank1.jpg");
+}
+.bank2{
+  background-image: url("bank2.jpg");
+}
+.bank3{
+  background-image: url("bank3.png");
+}
+.bank4{
+  background-image: url("bank4.jpg");
+}
+.bank5{
+  background-image: url("bank5.jpg");
+}
+.bank6{
+  background-image: url("bank6.png");
+}
+.bank7{
+  background-image: url("bank7.png");
+}
+.bank8{
+  background-image: url("bank8.png");
+}
+.bank9{
+  background-image: url("bank9.png");
+}
+.bank10{
+  background-image: url("bank10.jpg");
+}
+.bank11{
+  background-image: url("bank11.jpg");
+}
+
+
+.container-bank1{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bank1-log{
+  height: 600px;
+  width: 300px;
+  box-sizing: border-box;
+  padding: 70px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(68, 68, 68);
+
+}
+.bank1-log img {
+  width: 150px;
+}
+.bank1-log form{
+  margin-top: 100px;
+}
+.bank1-log input{
+  width: 100%;
+  height: 50px;
+  margin: 10px 0px;
+}
+.bank1-log input::placeholder{
+  text-align: end;
+}
+.bank1-log button{
+  width: 100%;
+  height: 50px;
+  background-color: #ee7522;
+  color: white;
+  margin-top: 100px;
+  border:none;
+}
+.bank2-log,.bank3-log{
+  height: 600px;
+  width: 300px;
+  box-sizing: border-box;
+  background-color: #e7e7e7;
+}
+.top-bank{
+  background-color: rgb(37, 20, 20);
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.bank2-log input ,.bank2-log button{
+  width: 100%;
+  margin-top: 30px;
+}
+.bank2-log input::placeholder{
+  text-align: end;
+}
+.bank2-log form{
+  padding: 10px;
+}
+.bank2-log button{
+  border: none;
+  background-color: #0084ff8f !important;
+  color:white;
+  height: 40px;
+}
+.bank3-log{
+  padding: 50px 15px;
+  background-color: #FFCD00;
+}
+.bank3-log img{
+  width: 100%;
+}
+.bank3-log form {
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  align-items: center;
+}
+.bank3-log form input{
+  border: none;
+  border-bottom: 5px solid ;
+  margin: 10px 0px;
+  width: 95%;
+}
+.bank3-log form input::placeholder{
+  text-align: end;
+}
+.bank3-log form button{
+  width: 90%;
+  border-radius: 20px;
+  background-color: #FFCD00;
+  border:none;
+  margin-top: 50px;
+}
+.parent{
+  height: 700px;
+  width: 300px;
+  position: relative;
+}
+.parent img{
+height: 100%;
+width: 100%;
+}
+.parent .form{
+  position: absolute;
+  top: 300px;
+  left: 20px;
+  width:100%;
+}
+.parent .form input{
+  width: 90%;
+}
+.user{
+  background-color: initial;
+  border: none;
+  height: 50px;
+
+}
+.pass{
+  margin-top: 80px;
+  background-color: initial;
+  border: none;
+  height: 10px;
+}
+.parent form button {
+  width: 90%;
+  height: 50px;
+  position: relative;
+  bottom: -15px;
+  left: -8px;
+  border: none;
+  background-color: rgb(213, 74, 74);
+  color: white;
+}
+.form-5{
+  position: absolute;
+  top: 210px;
+  width: 100%;
+}
+.form-5 input{
+  width: 100%;
+  height: 50px;
+  background-color: initial;
+  border: none;
+  padding-left: 20px;
+}
+.form-5 .pass-5{
+  margin-top: 20px;
+}
+.form-5 button{
+   width: 95% !important;
+   margin-left: 15px;
+   margin-top: 10px;
+   background-color: rgb(30, 132, 132) !important;
+}
+.parent .form-7{
+  width: 100%;
+  position: absolute;
+  top: 150px;
+}
+.parent .form-7 input {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 10px;
+  border: none;
+  background-color: initial;
+}
+.parent .form-7 input::placeholder{
+  text-align: end;
+}
+.parent .form-7  button{
+  width: 100%;
+  margin-top: 30px;
+  margin-left: 8px;
+}
+.pass-7{
+  margin-top: 15px;
+}
+.form-8{
+  width: 100%;
+  position: absolute;
+  top: 185px;
+}
+.form-8 input{
+  width: 100%;
+  height: 50px;
+  border-radius: 40px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  border: none;
+  background-color: initial;
+  padding-left: 20px;
+}
+.form-8 input::placeholder{
+  text-align: end;
+  padding-right: 15px;
+}
+.pass-8{
+  margin-top: 50px;
+}
+.form-8 button {
+  width: 95% !important;
+  margin-left: 15px;
+  height: 50px !important;
+  border-radius: 20px;
+  background-color: rgb(8, 82, 82) !important;
+}
+.form-9{
+  width: 100%;
+  position: absolute;
+  top: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-9 input{
+  width: 90%;
+  height: 40px;
+  background-color: inherit;
+  border: none;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.form-9 input::placeholder{
+  text-align: end;
+}
+.pass-9{
+  margin-top: 10px;
+}
+.form-9 button{
+  margin-left: 15px;
+  margin-top: 28px;
+  background-color: rgb(0, 96, 96) !important;
+}
+.form-10{
+  width: 100%;
+  position: absolute;
+  top: 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.form-10 input::placeholder{
+  text-align: end;
+}
+.form-10 input{
+  width: 90%;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  background-color: initial;
+  padding:0px 10px;
+}
+.pass-10{
+  margin-top: 20px;
+}
+.form-10 button{
+width: 90% !important;
+margin-left: 15px;
+margin-top: 35px;
+}
+.form-11{
+  width: 100%;
+  position: absolute;
+  top: 172px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.form-11 input::placeholder{
+  text-align: end;
+}
+.pass-11{
+  margin-top: 30px;
+}
+.form-11 input{
+  width: 87% !important;
+  height: 40px;
+  border: none;
+}
+.form-11 button{
+  margin-top: 20px;
+  margin-left: 15px;
+  background-color: rgb(1, 1, 64) !important;
+  height: 35px !important;
+  border-radius: 20px;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body{
+    overflow-x: hidden;
+    width: 100vw;
+    padding:20px 20px 20px 0px;
+  }
+  .navbar-toggle{
+    position: relative;
+    padding: 9px 10px;
+    margin-right: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  .icon-bar{
+    margin-top: 4px;
+    display: block;
+    width: 22px;
+    height: 2px;
+    cursor: pointer;
+    background-color: #888;
+
+  }
+  .navbar-toggle:hover{
+    background-color: #ddd;
+  }
+  .nav-pills{
+    display: flex !important;
+    flex-direction: column;
+    position: absolute;
+    height: 300px;
+    justify-content: center;
+    padding: 20px 0px !important;
+    left: -100vh;
+    top: 40px;
+    list-style: none;
+    transition: .5s;
+  }
+  .nav{
+    background: linear-gradient(to bottom,rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%);
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border: 1px solid grey;
+  }
+  .nav .logo{
+    height: 30px;
+    width: 80px;
+  }
+  p{
+    text-align: end;
+  }
+  .section-three span{
+    font-size: 14px !important;
+    margin-bottom: 10px;
+  }
+  .section-five{
+    flex-direction: column;
+    text-align: left;
+  }
+  .section-five p{
+    text-align: left;
+  }
+  .section-five .footer {
+  flex-direction: row-reverse;
+    flex-wrap: wrap;
+  }
+  .section-five .footer a{
+    font-size: 13px;
+    
+  }
+  .bank-links{
+     height: fit-content;
+  }
+  .bank-links a{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px;
+    width: 130px;
+    height: 100px;
+    
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body{
+    overflow-x: hidden;
+    width: 100vw;
+    padding:20px 20px 20px 0px;
+  }
+  .navbar-toggle{
+    position: relative;
+    padding: 9px 10px;
+    margin-right: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  .icon-bar{
+    margin-top: 4px;
+    display: block;
+    width: 22px;
+    height: 2px;
+    cursor: pointer;
+    background-color: #888;
+
+  }
+  .navbar-toggle:hover{
+    background-color: #ddd;
+  }
+  .nav-pills{
+    display: flex !important;
+    flex-direction: column;
+    position: absolute;
+    height: 300px;
+    justify-content: center;
+    padding: 20px 0px !important;
+    left: -200vh;
+    top: 40px;
+    list-style: none;
+    transition: .5s;
+    width:200px !important ;
+  }
+  .nav{
+    background: linear-gradient(to bottom,rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%);
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border: 1px solid grey;
+  }
+  .nav .logo{
+    height: 30px;
+    width: 80px;
+  }
+  p{
+    text-align: end;
+  }
+  .section-three span{
+    font-size: 14px !important;
+    margin-bottom: 10px;
+  }
+  .section-five{
+    flex-direction: column;
+    text-align: left;
+  }
+  .section-five p{
+    text-align: left;
+  }
+  .section-five .footer {
+  flex-direction: row-reverse;
+    flex-wrap: wrap;
+  }
+  .section-five .footer a{
+    font-size: 13px;
+    
+  }
+  .bank-links{
+     height: fit-content;
+  }
+  .bank-links a{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px;
+    width: 130px;
+    height: 100px;
+    
+  }
+
+}
+
+
